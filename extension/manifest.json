@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Asana Parent Ticket Highlighter",
+  "version": "1.0.0",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "settings.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["https://app.asana.com/*"]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "asana-parent-ticket-highlighter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A lightweight Chrome extension designed to enhance your experience with Asana by prominently displaying the parent ticket name in the ticket list view",
+  "scripts": {
+    "prettier": "prettier **/*.{md,js,json} -w",
+    "lint": "eslint **/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujiosaka/asana-parent-ticket-highlighter.git"
+  },
+  "keywords": [
+    "chrome-extension",
+    "asana"
+  ],
+  "author": "Yuji Isobe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yujiosaka/asana-parent-ticket-highlighter/issues"
+  },
+  "homepage": "https://github.com/yujiosaka/asana-parent-ticket-highlighter#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "eslint": "8.42.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "13.2.2",
+    "prettier": "2.8.8"
+  },
+  "lint-staged": {
+    "**/*.js": [
+      "eslint --fix"
+    ],
+    "**/*.{md,js,json}": [
+      "prettier --write"
+    ]
+  }
+}
