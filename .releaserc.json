@@ -1,0 +1,31 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": ".github/CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": [".github/CHANGELOG.md", "package.json", "package-lock.json"]
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "zip -r extension.zip ./extension"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": "extension.zip"
+      }
+    ]
+  ]
+}
