@@ -10,11 +10,11 @@ This extension aims to solve this issue by populating a user-defined column with
 
 **Before Activation of the Extension:**
 
-<img width="1358" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/d7b9dcba-92da-4914-806f-f5d131b40c39">
+<img width="1508" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/40e742e7-fe35-4a28-a035-f5d75cdaead8">
 
 **After Activation of the Extension:**
 
-<img width="1364" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/2c332d0c-20f1-4509-90b8-b5596954986c">
+<img width="1509" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/1042dff1-5393-4391-a731-a3c83309804b">
 
 ## Installation Guide
 
@@ -28,19 +28,19 @@ Follow these simple steps to install the Asana Parent Ticket Highlighter:
 
 4. Open Chrome and go to `chrome://extensions/`.
 
-   <img width="493" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/362340a9-3564-47c3-8920-26532d1956d5">
+   <img width="521" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/f6ab820d-d0fc-435c-9b72-e2dd834027fa">
 
 5. If it's not already enabled, turn on "Developer mode" in the top right corner.
 
-   <img width="493" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/84bbdd78-9892-4f9d-ab7b-c947b0cf1f4e">
+   <img width="523" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/653178c4-fdab-45c7-bfc9-4317578b39ed">
 
 6. Click "Load unpacked" and select the extracted extension folder.
 
-   <img width="493" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/9b287798-3e9c-4e80-b400-b4601e54e86f">
+   <img width="522" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/16f5f5f6-368b-4acf-8eee-47beea49c51f">
 
 7. The extension should now be installed and active!
 
-   <img width="316" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/f3e7ef1b-25ef-41e6-8498-1ba3803daf4a">
+   <img width="521" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/8d8c42f7-e512-49f4-ad24-d1b14c2984af">
 
 ## Usage Guide
 
@@ -48,22 +48,22 @@ Here's how to use the Asana Parent Ticket Highlighter:
 
 1. First, create a new custom field in Asana where the parent ticket name will be displayed.
 
-   <img width="1122" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/a51bb869-798d-4735-b640-423b674af383">
-   <img width="555" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/cd1e2e22-f854-451b-a52f-d32ce80b49e2">
+   <img width="1270" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/ed53b337-2807-4cec-82e6-050b07b322a8">
+   <img width="550" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/88abfdb4-eaa3-42c0-b32f-0bd05a68d494">
 
 2. Click the extension icon in your browser to open the settings. Make sure the name of the custom field you created matches with the "Column Name" setting in the extension.
 
-   <img width="186" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/8929ab9e-9dba-4f66-9d5f-f46565bfe748">
+   <img width="182" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/c3651e6d-0083-44a2-a5ca-afd7ad1f1289">
 
 3. Once done, the parent ticket name will be automatically populated in the column you created, thereby enhancing visibility.
 
-   <img width="1126" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/f6fd260b-c861-4395-8689-5d041c986b04">
+   <img width="1265" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/53a6a483-b465-4418-8c1a-9a66ae90de46">
 
 ## Why This Extension?
 
 Asana displays the parent ticket name next to the task name in a subtle gray text.
 
-   <img width="1077" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/8af17e61-c961-4de3-8cad-887feda4200d">
+<img width="1198" alt="Screenshot" src="https://github.com/yujiosaka/asana-parent-ticket-highlighter/assets/2261067/260e3655-523d-4042-a14d-65040d46889a">
 
 However, this information can easily be overlooked. In cases where the task name is too long, the parent ticket name might not be displayed at all.
 
