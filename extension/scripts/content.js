@@ -10,7 +10,7 @@ function populateParentTicket(columnName) {
 
     const parentTicketCell = Array.from(ticket.querySelectorAll("[role=gridcell]")).find((cell) => {
       const ariaLabel = cell.getAttribute("aria-label");
-      return ariaLabel && ariaLabel.startsWith(columnName);
+      return ariaLabel && ariaLabel.includes(columnName);
     });
     if (!parentTicketCell) return;
 
